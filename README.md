@@ -107,9 +107,9 @@ Full-Stack-ERC-20-Token-Faucet-DApp/
 
 ### Contracts Deployed on Sepolia Testnet
 
-**Token Contract Address**: [View on Etherscan](https://sepolia.etherscan.io/address/TOKEN_ADDRESS)
+**Token Contract Address**: [View on Etherscan](https://sepolia.etherscan.io/address/0xE8266289b776F380001DC3d4F205E17D05D215A0)
 
-**Faucet Contract Address**: [View on Etherscan](https://sepolia.etherscan.io/address/FAUCET_ADDRESS)
+**Faucet Contract Address**: [View on Etherscan](https://sepolia.etherscan.io/address/0xF015668670c6635BE8efaaE5683453Cf3244e1AC)
 
 ## Usage Guide
 
@@ -216,7 +216,7 @@ The video demonstrates:
 - [x] Smart contracts deployed to Sepolia testnet
 - [x] All contracts verified on Etherscan
 - [x] Contract addresses documented in README with Etherscan links
-- [x] Application accessible at http://localhost:3000
+- [x] Application accessible at http://localhost:5173
 - [x] Health endpoint returns HTTP 200
 - [x] window._EVAL_ functions work correctly
 - [x] Wallet connection works with MetaMask
@@ -267,7 +267,7 @@ npm start
 ```
 
 ### 5. Access the DApp
-Open browser and navigate to: `http://localhost:3000`
+Open browser and navigate to: `http://localhost:5173`
 
 ## Configuration Files
 
@@ -276,7 +276,7 @@ Contains all required environment variables with descriptions
 
 ### docker-compose.yml
 Configures the application stack with:
-- Frontend service (React on port 3000)
+- Frontend service (React on port 5173)
 - Blockchain RPC connection to Sepolia
 - Necessary environment variables
 
